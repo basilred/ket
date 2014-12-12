@@ -1,6 +1,6 @@
 ({
     block : 'page',
-    title : 'Title of the page',
+    title : 'KET Web Studio',
     favicon : '/favicon.ico',
     head : [
         { elem : 'meta', attrs : { name : 'description', content : '' } },
@@ -491,10 +491,46 @@
             block : 'header',
             content : [
                 {
-                    block : 'logo'
+                    block : 'logo',
+                    content : [
+                        {
+                            block : 'image',
+                            mix : { block : 'logo', elem : 'image' }
+                        },
+                        {
+                            block : 'text',
+                            content : 'KET'
+                        }
+                    ]
                 },
                 {
-                    block : 'menu'
+                    block : 'menu',
+                    content : [
+                        {
+                            block : 'menu-item',
+                            content : 'home'
+                        },
+                        {
+                            block : 'menu-item',
+                            content : 'services'
+                        },
+                        {
+                            block : 'menu-item',
+                            content : 'portfolio'
+                        },
+                        {
+                            block : 'menu-item',
+                            content : 'about'
+                        },
+                        {
+                            block : 'menu-item',
+                            content : 'news'
+                        },
+                        {
+                            block : 'menu-item',
+                            content : 'contact'
+                        }
+                    ]
                 }
             ]
         }
