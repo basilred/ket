@@ -531,6 +531,9 @@
                             content : 'contact'
                         }
                     ]
+                },
+                {
+                    block : 'video'
                 }
             ]
         }
