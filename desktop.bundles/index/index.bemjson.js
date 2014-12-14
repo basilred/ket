@@ -531,9 +531,88 @@
                             content : 'contact'
                         }
                     ]
+                }
+            ]
+        },
+        {
+            block : 'video',
+            content : [
+                {
+                    elem : 'title',
+                    content : 'we make websites'
                 },
                 {
-                    block : 'video'
+                    block : 'button',
+                    text : 'start tour'
+                }
+            ]
+        },
+        {
+            block : 'menu',
+            content : [
+                {
+                    block : 'menu-item',
+                    content : [
+                        {
+                            block : 'icon'
+                        },
+                        {
+                            elem : 'title',
+                            content : 'web design'
+                        },
+                        {
+                            elem : 'description',
+                            content : 'we make any kinds of websites'
+                        }
+                    ]
+                },
+                {
+                    block : 'menu-item',
+                    content : [
+                        {
+                            block : 'icon'
+                        },
+                        {
+                            elem : 'title',
+                            content : 'graphic design'
+                        },
+                        {
+                            elem : 'description',
+                            content : 'we make any kinds of graphic design'
+                        }
+                    ]
+                },
+                {
+                    block : 'menu-item',
+                    content : [
+                        {
+                            block : 'icon'
+                        },
+                        {
+                            elem : 'title',
+                            content : 'programming'
+                        },
+                        {
+                            elem : 'description',
+                            content : 'we make any kinds of programming'
+                        }
+                    ]
+                },
+                {
+                    block : 'menu-item',
+                    content : [
+                        {
+                            block : 'icon'
+                        },
+                        {
+                            elem : 'title',
+                            content : 'photography'
+                        },
+                        {
+                            elem : 'description',
+                            content : 'we make any kinds of photography'
+                        }
+                    ]
                 }
             ]
         }
