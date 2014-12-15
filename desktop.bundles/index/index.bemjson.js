@@ -505,30 +505,31 @@
                 },
                 {
                     block : 'menu',
+                    mix : { block : 'header', elem : 'menu' },
                     content : [
                         {
                             block : 'menu-item',
-                            content : 'home'
+                            content : 'HOME'
                         },
                         {
                             block : 'menu-item',
-                            content : 'services'
+                            content : 'SERVICES'
                         },
                         {
                             block : 'menu-item',
-                            content : 'portfolio'
+                            content : 'PORTFOLIO'
                         },
                         {
                             block : 'menu-item',
-                            content : 'about'
+                            content : 'ABOUT'
                         },
                         {
                             block : 'menu-item',
-                            content : 'news'
+                            content : 'NEWS'
                         },
                         {
                             block : 'menu-item',
-                            content : 'contact'
+                            content : 'CONTACT'
                         }
                     ]
                 }
