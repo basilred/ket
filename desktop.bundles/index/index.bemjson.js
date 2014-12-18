@@ -540,7 +540,7 @@
             content : [
                 {
                     elem : 'title',
-                    content : 'we make websites'
+                    content : 'WE MAKE WEBSITES'
                 },
                 {
                     block : 'button',
