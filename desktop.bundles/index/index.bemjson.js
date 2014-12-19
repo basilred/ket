@@ -495,12 +495,13 @@
                     content : [
                         {
                             block : 'image',
-                            mix : { block : 'logo', elem : 'image' }
+                            mix : { block : 'logo', elem : 'image' },
+                            url : '../../desktop.blocks/logo/__image/logo__image.png'
                         },
-                        {
-                            block : 'text',
-                            content : 'KET'
-                        }
+                        // {
+                        //     block : 'text',
+                        //     content : 'KET'
+                        // }
                     ]
                 },
                 {
