@@ -1,0 +1,8 @@
+.header__menu-item
+{
+}
+
+.header__menu-item:hover
+{
+	cursor: pointer;
+}

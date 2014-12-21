@@ -510,26 +510,32 @@
                     content : [
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'HOME'
                         },
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'SERVICES'
                         },
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'PORTFOLIO'
                         },
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'ABOUT'
                         },
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'NEWS'
                         },
                         {
                             block : 'menu-item',
+                            mix : { block : 'header', elem : 'menu-item' },
                             content : 'CONTACT'
                         }
                     ]
