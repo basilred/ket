@@ -551,7 +551,8 @@
                 },
                 {
                     block : 'button',
-                    text : 'start tour'
+                    mix : { block : 'video', elem : 'button' },
+                    text : 'START TOUR'
                 }
             ]
         },
