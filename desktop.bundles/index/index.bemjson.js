@@ -558,12 +558,16 @@
         },
         {
             block : 'menu',
+            mix : { block : 'servicemenu' },
             content : [
                 {
                     block : 'menu-item',
+                    mix : { block : 'servicemenu', elem : 'menu-item' },
+                    mods : { webdesign : true },
                     content : [
                         {
-                            block : 'icon'
+                            block : 'image',
+                            url : '../../desktop.blocks/servicemenu/__menu-item/_webdesign/servicemenu__menu-item_webdesign.png'
                         },
                         {
                             elem : 'title',
@@ -579,7 +583,8 @@
                     block : 'menu-item',
                     content : [
                         {
-                            block : 'icon'
+                            block : 'image',
+                            url : '../../desktop.blocks/servicemenu/__menu-item/_graphic/servicemenu__menu-item_graphic.png'
                         },
                         {
                             elem : 'title',
@@ -595,7 +600,8 @@
                     block : 'menu-item',
                     content : [
                         {
-                            block : 'icon'
+                            block : 'image',
+                            url : '../../desktop.blocks/servicemenu/__menu-item/_prog/servicemenu__menu-item_prog.png'
                         },
                         {
                             elem : 'title',
@@ -611,7 +617,8 @@
                     block : 'menu-item',
                     content : [
                         {
-                            block : 'icon'
+                            block : 'image',
+                            url : '../../desktop.blocks/servicemenu/__menu-item/_photo/servicemenu__menu-item_photo.png'
                         },
                         {
                             elem : 'title',
