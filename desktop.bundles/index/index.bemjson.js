@@ -581,6 +581,7 @@
                 },
                 {
                     block : 'menu-item',
+                    mix : { block : 'servicemenu', elem : 'menu-item' },
                     content : [
                         {
                             block : 'image',
@@ -598,6 +599,7 @@
                 },
                 {
                     block : 'menu-item',
+                    mix : { block : 'servicemenu', elem : 'menu-item' },
                     content : [
                         {
                             block : 'image',
@@ -615,6 +617,7 @@
                 },
                 {
                     block : 'menu-item',
+                    mix : { block : 'servicemenu', elem : 'menu-item' },
                     content : [
                         {
                             block : 'image',

@@ -1,0 +1,8 @@
+.servicemenu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 240px;
+	margin: 0 20%;
+}
