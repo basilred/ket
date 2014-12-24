@@ -567,6 +567,7 @@
                     content : [
                         {
                             block : 'image',
+                            mix : { block : 'menu-item', elem : 'image' },
                             url : '../../desktop.blocks/servicemenu/__menu-item/_webdesign/servicemenu__menu-item_webdesign.png'
                         },
                         {
@@ -585,6 +586,7 @@
                     content : [
                         {
                             block : 'image',
+                            mix : { block : 'menu-item', elem : 'image' },
                             url : '../../desktop.blocks/servicemenu/__menu-item/_graphic/servicemenu__menu-item_graphic.png'
                         },
                         {
@@ -603,6 +605,7 @@
                     content : [
                         {
                             block : 'image',
+                            mix : { block : 'menu-item', elem : 'image' },
                             url : '../../desktop.blocks/servicemenu/__menu-item/_prog/servicemenu__menu-item_prog.png'
                         },
                         {
@@ -621,6 +624,7 @@
                     content : [
                         {
                             block : 'image',
+                            mix : { block : 'menu-item', elem : 'image' },
                             url : '../../desktop.blocks/servicemenu/__menu-item/_photo/servicemenu__menu-item_photo.png'
                         },
                         {
@@ -636,4 +640,4 @@
             ]
         }
     ]
-})
+})=
