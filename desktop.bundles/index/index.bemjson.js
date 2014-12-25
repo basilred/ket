@@ -638,6 +638,43 @@
                     ]
                 }
             ]
+        },
+        {
+            block : 'section4',
+            content : [
+                {
+                    block : 'buttons-group',
+                    content : [
+                        {
+                            block : 'button',
+                            text : 'START TOUR'
+                        },
+                        {
+                            block : 'button',
+                            text : 'FOR ALL DEVICES'
+                        }
+                    ]
+                },
+                {
+                    block : 'content',
+                    content : [
+                        {
+                            block : 'image'
+                        },
+                        {
+                            block : 'header'
+                        },
+                        {
+                            block : 'paragraph'
+                        },
+                        {
+                            block : 'button',
+                            mix : { block : 'video', elem : 'button' },
+                            text : 'START TOUR'
+                        }
+                    ]
+                }
+            ]
         }
     ]
-})=
+})
