@@ -662,7 +662,8 @@
                             block : 'image'
                         },
                         {
-                            block : 'header'
+                            block : 'header',
+                            content : 'Fully responsive'
                         },
                         {
                             block : 'paragraph'
