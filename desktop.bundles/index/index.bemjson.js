@@ -676,6 +676,22 @@
                     ]
                 }
             ]
+        },
+        {
+            block : 'section5',
+            content : [
+                {
+                    block : 'header',
+                    content : 'Modern and clean design'
+                },
+                {
+                    block : 'paragraph',
+                    content : 'blahblahblah'
+                },
+                {
+                    block : 'image'
+                }
+            ]
         }
     ]
 })
