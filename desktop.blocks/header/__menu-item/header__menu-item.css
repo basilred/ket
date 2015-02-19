@@ -4,5 +4,6 @@
 
 .header__menu-item:hover
 {
+	color: red;
 	cursor: pointer;
 }
